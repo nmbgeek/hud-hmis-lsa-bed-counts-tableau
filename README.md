@@ -3,6 +3,8 @@ Uses your HUD LSA export to see bed counts in Tableau.
 
 You will need to take your LSA Export and combine the sheets in Excel.  The required sheets must be named "Project", "HMISParticipation", "Inventory", and "Organization".  If you don't have Tableau Desktop you can use the Tableau Public client to see the data and modify the PIT date.  There is no client level data so you could also host on Tableau public depending on your organization/CoC's policies for others to be able to review the information.  [Tableau Public can be download here.](https://www.tableau.com/products/public/download)
 
+If you have seasonal beds you will have to add that as an alias to the appropriate variable, otherwise that is what the "2" would represent under "Availability".
+
 To use this you can either: 
 
 * Create an Excel woorkbook and add each of the CSVs as a sheet
