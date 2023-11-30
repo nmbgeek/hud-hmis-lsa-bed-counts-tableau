@@ -18,4 +18,6 @@ To use this you can either:
    
 Once you have your XLSX file you can then open the Tableau workbook and choose the XLSX file for the data source!
 
+[Download Tableau Workbook and Python script here](https://github.com/nmbgeek/hud-hmis-lsa-bed-counts-tableau/releases/latest)
+
 ![Tableau Preview](./preview.jpg)
