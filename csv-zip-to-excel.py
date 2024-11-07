@@ -19,10 +19,10 @@ def csvs_to_excel(zip_file_path, output_excel_path):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python script_name.py <zip_file_path>")
+        print("Usage: csv-zip-to-excel.py <zip_file_path>")
         sys.exit(1)
 
-    zip_file_path = sys.argv[1]
+    zip_file_path = os.path.abspath(sys.argv[1]) 
     output_excel_path = os.path.splitext(zip_file_path)[0] + '.xlsx'
 
     csvs_to_excel(zip_file_path, output_excel_path)
